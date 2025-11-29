@@ -1,0 +1,64 @@
+# This file includes dependencies for both training and evaluation frameworks
+
+# ============================================================================
+# Core Deep Learning & ML
+# ============================================================================
+torch>=2.0.0
+transformers>=4.35.0
+accelerate>=0.25.0
+bitsandbytes>=0.41.0
+peft>=0.7.0
+
+# ============================================================================
+# Training Framework Dependencies
+# ============================================================================
+# Unsloth for efficient fine-tuning (30% VRAM reduction)
+unsloth>=2024.1
+
+# Training utilities
+trl>=0.7.0                    # Transformer Reinforcement Learning
+datasets>=2.14.0              # HuggingFace datasets
+wandb                         # Experiment tracking (optional)
+tensorboard                   # Training visualization (optional)
+
+# ============================================================================
+# Evaluation Framework Dependencies
+# ============================================================================
+# Gemini API for client simulation and evaluation
+google-generativeai>=0.3.0
+
+# ============================================================================
+# Data Processing & Utilities
+# ============================================================================
+pandas>=2.0.0                 # Data manipulation
+numpy>=1.24.0                 # Numerical operations
+tqdm>=4.65.0                  # Progress bars
+python-dotenv>=1.0.0          # Environment variable management
+
+# ============================================================================
+# Development & Quality Assurance
+# ============================================================================
+pytest>=7.4.0                 # Testing framework
+black>=23.0.0                 # Code formatting
+flake8>=6.0.0                 # Linting
+isort>=5.12.0                 # Import sorting
+
+# ============================================================================
+# Deployment & API (Optional)
+# ============================================================================
+fastapi>=0.104.0              # API framework
+uvicorn>=0.24.0               # ASGI server
+pydantic>=2.0.0               # Data validation
+
+# ============================================================================
+# Model Hub & Storage
+# ============================================================================
+huggingface-hub>=0.19.0       # HuggingFace model hub integration
+
+# ============================================================================
+# System Monitoring (Optional)
+# ============================================================================
+psutil>=5.9.0                 # System and process utilities
+gputil>=1.4.0                 # GPU monitoring
+nvidia-ml-py3>=7.352.0        # NVIDIA management library
+# ============================================================================
