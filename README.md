@@ -7,7 +7,7 @@ A comprehensive framework for training and evaluating Vietnamese mental health c
 ### Training Framework
 - **LoRA Fine-tuning**: Efficient parameter-efficient fine-tuning using Low-Rank Adaptation
 - **4-bit Quantization**: Memory-efficient training with QLoRA
-- **Unsloth Optimization**: 30% VRAM reduction for faster training
+- **Unsloth Optimization**: VRAM reduction for faster training
 - **CBT Integration**: Built-in Vietnamese CBT techniques and prompting
 - **Interactive Testing**: Test your model during and after training
 - **Flexible Saving**: Save to local disk or push directly to HuggingFace Hub

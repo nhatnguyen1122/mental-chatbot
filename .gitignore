@@ -1,3 +1,7 @@
 /kaggle
 *.csv
 .DS_Store
+.env
+outputs/
+__pycache__/
+*.ipynb_checkpoints
