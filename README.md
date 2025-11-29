@@ -1,4 +1,4 @@
-# Towards a Vietnamese Mental Health Support Chatbot
+# Towards a Vietnamese Mental Health Support Chatbot with Large Language Models
 
 A comprehensive framework for training and evaluating Vietnamese mental health chatbots using Cognitive Behavioral Therapy (CBT) techniques. This paper includes both a fine-tuning pipeline for counselor models and an automated evaluation system using simulated conversations.
 
