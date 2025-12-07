@@ -129,29 +129,29 @@ python main.py --csv-path ../dataset/MentalHealthDataset.csv --output ../results
 
 Both frameworks use 8 Vietnamese Cognitive Behavioral Therapy techniques:
 
-1. **Giảm thiểu thảm họa hoá**
-   - Giúp người dùng giảm bớt nỗi sợ kịch bản tồi tệ nhất.
+1. **Decatastrophizing (Giảm thiểu thảm họa hoá)**
+   - Aims to reduce the habit of imagining the worst-case scenario by assessing how likely the feared outcome really is and preparing ways to cope.
 
-2. **Góc nhìn thay thế**
-   - Khuyến khích xem xét tình huống từ một góc độ khác.
+2. **Alternative Perspective (Góc nhìn thay thế)**
+   - Encourages clients to consider how others might view similar situations, promoting openness to different interpretations.
 
-3. **Đặt câu hỏi dựa trên bằng chứng**
-   - Hướng dẫn người dùng tìm bằng chứng ủng hộ hoặc bác bỏ niềm tin của họ.
+3. **Evidence-Based Questioning (Đặt câu hỏi dựa trên bằng chứng)**
+   - Guides clients to examine evidence that supports or contradicts their thoughts, fostering a more fact-based way of thinking.
 
-4. **Thí nghiệm hành vi**
-   - Gợi ý người dùng thực hiện thử nghiệm hành vi để kiểm chứng niềm tin trong thực tế.
+4. **Behavior Experiment (Thí nghiệm hành vi)**
+   - Involves testing new behaviors in specific situations to challenge and change negative beliefs.
 
-5. **Kiểm tra thực tế**
-   - Giúp người dùng so sánh niềm tin của họ với bằng chứng thực tế.
+5. **Reality Testing (Kiểm tra thực tế)**
+   - Helps clients evaluate how accurately their thoughts reflect reality, distinguishing between perceptions and actual experiences.
 
-6. **Đánh giá hiệu quả**
-   - Đánh giá xem mô hình suy nghĩ hoặc hành vi của người dùng có thực tế và có ích hay không.
+6. **Efficiency Evaluation (Đánh giá hiệu quả)**
+   - Assists individuals in assessing how useful their thoughts or beliefs are, analyzing their practicality or potential harm in real-life contexts.
 
-7. **Chuyển đổi quy tắc thành mong muốn**
-   - Khuyến khích chuyển các câu 'cần phải/đáng lẽ' cứng nhắc thành mong muốn linh hoạt.
+7. **Changing Rules to Wishes (Chuyển đổi quy tắc thành mong muốn)**
+   - Replaces rigid rules or unrealistic standards with achievable hopes or desires.
 
-8. **Huấn luyện kỹ năng giải quyết vấn đề**
-   - Hướng dẫn người dùng phương pháp có cấu trúc để xác định và giải quyết vấn đề.
+8. **Problem-Solving Skills Training (Huấn luyện kỹ năng giải quyết vấn đề)**
+   - Teaches systematic approaches to tackling problems, including identifying issues, generating possible solutions, and implementing them.
 
 ## 📊 Evaluation Metrics
 
