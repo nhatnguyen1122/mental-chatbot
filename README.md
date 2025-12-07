@@ -129,53 +129,56 @@ python main.py --csv-path ../dataset/MentalHealthDataset.csv --output ../results
 
 Both frameworks use 8 Vietnamese Cognitive Behavioral Therapy techniques:
 
-1. **Giảm thiểu tư duy thảm họa** (Catastrophizing Reduction)
-   - Helps clients challenge worst-case scenario thinking
-   - Reframe catastrophic thoughts with balanced perspectives
+1. **Giảm thiểu thảm họa hoá**
+   - Giúp người dùng giảm bớt nỗi sợ kịch bản tồi tệ nhất.
 
-2. **Tìm kiếm quan điểm thay thế** (Alternative Perspectives)
-   - Explore multiple viewpoints on a situation
-   - Challenge rigid thinking patterns
+2. **Góc nhìn thay thế**
+   - Khuyến khích xem xét tình huống từ một góc độ khác.
 
-3. **Phân tích chi phí - lợi ích** (Cost-Benefit Analysis)
-   - Evaluate pros and cons of thoughts/behaviors
-   - Make informed decisions about change
+3. **Đặt câu hỏi dựa trên bằng chứng**
+   - Hướng dẫn người dùng tìm bằng chứng ủng hộ hoặc bác bỏ niềm tin của họ.
 
-4. **Tư duy dựa trên bằng chứng** (Evidence-Based Thinking)
-   - Examine evidence for and against thoughts
-   - Develop more balanced, realistic beliefs
+4. **Thí nghiệm hành vi**
+   - Gợi ý người dùng thực hiện thử nghiệm hành vi để kiểm chứng niềm tin trong thực tế.
 
-5. **Giảm cường độ cảm xúc** (Emotion De-intensification)
-   - Techniques to reduce emotional overwhelm
-   - Create distance from intense feelings
+5. **Kiểm tra thực tế**
+   - Giúp người dùng so sánh niềm tin của họ với bằng chứng thực tế.
 
-6. **Tái định nghĩa vấn đề** (Problem Reframing)
-   - View challenges from new angles
-   - Transform problems into opportunities
+6. **Đánh giá hiệu quả**
+   - Đánh giá xem mô hình suy nghĩ hoặc hành vi của người dùng có thực tế và có ích hay không.
 
-7. **Lên kế hoạch hành động** (Action Planning)
-   - Develop concrete, achievable steps
-   - Move from rumination to action
+7. **Chuyển đổi quy tắc thành mong muốn**
+   - Khuyến khích chuyển các câu 'cần phải/đáng lẽ' cứng nhắc thành mong muốn linh hoạt.
 
-8. **Thực hành lòng tự trắc ẩn** (Self-Compassion Practice)
-   - Cultivate kindness toward oneself
-   - Counter self-criticism with understanding
+8. **Huấn luyện kỹ năng giải quyết vấn đề**
+   - Hướng dẫn người dùng phương pháp có cấu trúc để xác định và giải quyết vấn đề.
 
 ## 📊 Evaluation Metrics
 
-The evaluation framework uses 7 CTRS-based criteria (0-6 scale):
+The evaluation framework uses 7 criteria based on Cognitive Therapy Rating Scale (CTRS) and custom metrics, each scored on a 0-6 scale:
+
+### General Counseling Skills
 
 | Criterion | Description |
 |-----------|-------------|
-| **Agenda Setting** | Clear, collaborative goal-setting for conversation |
-| **Feedback** | Requesting and incorporating client feedback |
-| **Understanding** | Demonstrating comprehension of client's concerns |
-| **Interpersonal Effectiveness** | Warmth, empathy, professionalism |
-| **Collaboration** | Teamwork approach to problem-solving |
-| **Pacing & Use of Time** | Efficient, appropriate time management |
-| **Guided Discovery** | Using questions to help client discover insights |
+| **Understanding** | Therapist's ability to accurately comprehend the client's issues, emotions, and underlying concerns |
+| **Interpersonal Effectiveness** | Capacity to foster a positive, supportive, and trusting relationship (warmth, genuineness, rapport) |
+| **Collaboration** | How well the therapist involves the client in the therapeutic process (joint goal-setting, active participation) |
 
-**Total Score**: Sum of all criteria (0-42 range, higher is better)
+### CBT-Specific Skills
+
+| Criterion | Description |
+|-----------|-------------|
+| **Guided Discovery** | Use of Socratic questioning to guide the client toward self-reflection and insight |
+| **Focus** | Ability to identify and prioritize key cognitions or behaviors, maintaining clear focus throughout the session |
+| **Strategy** | Coherence and appropriateness of the overall approach, including evidence-based CBT techniques |
+
+### Custom Metric
+
+| Criterion | Description |
+|-----------|-------------|
+| **Change in Attitude Towards Guidance** | Observed change in client's attitude regarding counselor's guidance throughout the session (from negative/neutral/positive initial state) |
+
 
 ## 🔧 Configuration
 
